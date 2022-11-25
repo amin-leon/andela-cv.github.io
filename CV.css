@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(87, 198, 234, 0.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    width: 747px;
+    position: relative;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-part{
+    width: 274px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;   
+}
+.left-part img{
+    width: 182px;
+    height: 150px;
+    border-radius: 4px 4px 4px 4px; 
+    position: relative;
+    top: -20px;
+}
+.contact-info{
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-item, .education-item, .programming-item, .project-item{
+    font-family: 'Inter';
+    font-size: 12px;
+}
+.contact-info .contact-item{
+  
+    background-color: black;
+    width: 184px;
+    height: 31px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding-left: 5px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Inter';
+}
+.contact-info .telephone, .email, .facebook, .location{
+    display: flex;
+    background-color: #D9D9D9;
+    margin-top: 10px;
+    width: 184px;
+    height: 28px;
+    font-size: 12px;
+    column-gap: 0.5rem;
+    padding-left: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 4px 4px 4px 4px; 
+    font-family: 'Inter';
+    font-size: 12px; 
+}
+.education-background{
+    display: flex;
+    padding: 10px;
+    flex-direction: column; 
+}
+.education-background .degree{
+    font-family: 'Inter';
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 184px;
+    height: 49px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px 4px 4px 4px; 
+    background-color: #D9D9D9;
+
+}
+.education-background .education-item, .project-item{
+    width: 184px;
+    height: 31px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding-left: 5px;
+    border-radius: 4px 4px 4px 4px; 
+}
+.programming-skills{
+    margin-top: 10px;
+    padding: 10px;
+}
+.programming-skills .programming-item{
+    border-radius: 4px 4px 4px 4px; 
+    width: 184px;
+    height: 31px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding-left: 5px;
+}
+.all-right-items{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+ul {
+
+    padding-left: 27px;
+    padding-top: 10px;
+    
+    
+}
+ul li{
+    font-family: 'Inter';
+    font-size: 12px;
+}
+.right-part{
+    display: flex;
+    align-items: center;
+    width: 473px;
+    height: 849px;
+    flex-direction: column; 
+    background-color: #FDF9F9;
+    box-shadow: 4px 20px 12px 1px rgba(0, 0, 0, 0.25);
+}
+.all{
+    width: 380px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.hero{
+    background-color: #ABB4B6;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px 4px 4px 4px; 
+    gap: 10px;
+
+}
+.projects{
+
+    width: 100%;
+    height: 80px;
+    padding-top: 27px;
+}
+.project-item{
+    width: 100%; 
+}
+.project-details
+{
+   width: 100%;
+   background-color: rgb(233, 233, 233); 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+   padding-left: 5px;
+   margin-top: 5px;
+}
+.project-name p{
+    padding-left: 10px;
+}
+.project-descripution{
+    padding-top: 5px;
+}
+.project-descripution, .project-item, .project-name, .date{
+    font-family: 'Inter';
+    font-size: 12px;
+}
+.separate-line{
+    background-color: black;
+    height: 2px;
+    width: 50px;
+    color: white;
+    border-radius: 2px 2px 2px 2px; 
+}
