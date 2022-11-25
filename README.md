@@ -1,1 +1,1 @@
-andela-cv.github.io
+https://andela-cv.github.io/CV.html
